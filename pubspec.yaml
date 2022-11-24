@@ -1,16 +1,13 @@
 name: parse_coordinates
-description: A starting point for Dart libraries or applications.
+description: A library to parse geo coordinates. A Dart port of https://www.npmjs.com/package/parse-coords
 version: 1.0.0
-# homepage: https://www.example.com
+homepage: https://github.com/danielsiwiec/parse-coordinates
 
 environment:
   sdk: '>=2.18.4 <3.0.0'
-
-# dependencies:
-#   path: ^1.8.0
 
 dev_dependencies:
   lints: ^2.0.0
   test: ^1.16.0
 dependencies:
-  utm: 0.1.3-nullsafety.1
+  utm: ^0.1.3-nullsafety.1
